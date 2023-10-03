@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Testando bootstrap</title>
+</head>
+<body>
+  <!-- Opening: Header - Navbar -->
+  <header class="container-xl navbar-expand-lg bg-transparent z-index-1 my-2 mx-auto p-0 border border-2 justify-content-between fixed-top">
+    
+    <!-- Opening: NavBar Menu-->
+    <nav class="w-100 p-0 m-0 row row-cols-2 shadow navBar-menu justify-content-between" aria-label="Barra: Menu de Navegação">
+      
+      <div class="row row-col-2 col-9 col-lg-4 p-0 m-0 justify-content-between">
+      <figure class="navbar-text py-0 col-5 my-auto" height="40px">
+        <img class="" src="./img/logo-Victor.png" height="25px" alt="Logo Victor" href="#"></img>
+      </figure>
+
+        <time class="red-color font-atma col-7 my-auto text-center" height="25px"></time>
+      </div>
+
+      <button class="navbar-toggler border border-0 col-1" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Botão do Menu condensado">
+        <i class="fa-solid fa-arrow-down-short-wide" style="color: #fc1d24;"></i>
+        <!-- <i class="fa-sharp fa-solid fa-square-caret-down fa-xl red-color justify-content-center"></i> -->
+        <!-- <i class="fa-solid fa-plus fa-xl" style="color: #fc1d24;"></i> -->
+        <!-- <i class="fa-solid fa-minus" style="color: #fc1d24;"></i> -->
+      </button>
+
+      <div class="collapse navbar-collapse text-center m-0 p-0 col-lg-5 justify-content-end" id="navbarSupportedContent">
+        
+        <ul class="red-color font-bangers--ss navbar-nav m-0 justify-content-between col" style="width: 100%; height: 100%;">
+          
+          <li class="nav-item col-1 p-0 mx-auto my-auto">
+            <a class="nav-link active p-0 m-0" aria-current="page" href="#presentation">Home</a>
+          </li>
+          
+          <li class="nav-item col-2 p-0 mx-auto my-auto">
+            <a class="nav-link active p-0 my-auto" href="#about">Sobre mim</a>
+          </li>
+
+          <li class="nav-item col-2 p-0 mx-auto my-auto">
+            <a class="nav-link active p-0 my-auto" href="#skills">Habilidades</a>
+          </li>
+          
+          <li class="nav-item col-3 p-0 mx-auto my-auto">
+            <button id="projects" class="btn red-color p-0 mx-auto w-100 justify-content-around" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Meus Projetos 
+              <!-- <i class="fa-solid fa-arrow-down-wide-short fa-flip-vertical" style="color: #0d0d0d;"></i> -->
+              <span class="mx-1"><i class="fa-solid fa-arrow-down-short-wide"></i></span>
+            </button>
+            <ul class="dropdown-menu font-atma--ss">
+              <li><a class="dropdown-item" href="#proj-01">Projeto 01</a></li>
+              <li><a class="dropdown-item" href="#proj-02">Projeto 02</a></li>
+              <li><a class="dropdown-item" href="#proj-03">Projeto 03</a></li>
+            </ul>
+          </li>
+          <li class="nav-item col-2 p-0 mx-auto my-auto">
+            <button id="contacts" class="btn red-color p-0 mx-auto w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contatos
+              <span class="mx-1"><i class="fa-solid fa-arrow-down-short-wide"></i></span>
+            </button>
+            <ul class="dropdown-menu font-atma--ss">
+              <li><a class="dropdown-item" href="#contacts">E-mail</a></li>
+              <li><a class="dropdown-item" href="#contacts">Instagram</a></li>
+              <li><a class="dropdown-item" href="#contacts">WhatsApp</a></li>
+              <li><a class="dropdown-item" href="#contacts">GitHub</a></li>
+              <li><a class="dropdown-item" href="#contacts">LinkdIn</a></li>
+            </ul>
+          </li>
+          <li class="nav-item col-2 col-1 mx-auto my-auto p-0">
+            <a class="nav-link active mx-auto my-auto p-0 text-center" href="#feedback">Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Closing: NavBar Menu -->
+  </header>
+  <!-- Closing: Header - NavBar -->
+
+  <!-- Opening: Main Portfolio -->
+  <main class="container-fluid row row-cols-1 mx-0 mb-2 p-0 g-0 font-atma--s">
+    
+    <!-- Opening: Presentation -->
+    <section id="presentation" class="container-md mx-0 mb-3 px-5 py-0 row row-cols-2 justify-content-evenly align-items-center">
+      <article class="txt-hello col-12 col-md-7 my-auto px-3 justify-content-center">
+        
+        <h1 class="font-marvel--s my-auto px-3">Oi, me chamo <span class="font-marvel">Victor</span> <span class="font-bangers" >Natalio</span>!</h1>
+        
+        <p class="font-atma--ss my-auto px-3" >
+          Neste portfólio demonstro um pouco minhas habilidades de Front-end Developer.
+        </p>
+      </article>
+
+      <figure class="img-me m-0 col-12 col-md-5 d-flex justify-content-center">
+        <img class="my-auto" src="./img/Victor1.webp" alt="Foto do Victor" width="350px" >
+      </figure>
+    </section>
+    <!-- Closing: Presentation -->
+    
+    <!-- Opening: About -->    
+    <section id="about" class="container-md row row-cols-2 mx-0 my-3 p-0">
+        
+      <figure class="mx-0 my-auto px-5 py-0 col-12 col-md-5 justify-content-center">
+        <img src="" alt="Transição de fotos do Victor" class="my-auto" width="250px">
+      </figure>
+
+      <article class="row row-cols-1 col-12 col-md-7 mx-0 my-5 px-5 py-0">
+        <h2 class="font-marvel--s col-12 justify-content-center mx-0 my-auto p-0">
+          Sobre<span class="font-bangers--s"> mim</span>
+        </h2>
+          
+        <p class="font-atma--ss col-12 justify-content-center mx-0 my-auto p-0">
+          Desenvolvedor fullstack em formação, estou em transição-de-carreira, 
+          Engenheiro Civil e Eng. de Segurança do Trabalho”.<br>
+
+          <br>Desde de o mês de julho de 2023 estou fazendo o curso de 
+          Formação em Tecnologia da Escola DNC (Full-Stack-Developer)<br>
+
+          <br>A minha transição de carreira foi motivada após a perda do meu pai, 
+          após perceber que me o que mais gosto de fazer, é programar, 
+          então resolvi que chegou a hora de transformar o hobbie em trabalho.<br>
+
+          <br>O curso ensina a trabalhar com: HTML5, CSS3, JavaScript, 
+          NodeJS, ReactJS, ExpressJS, SQL, MongoDB e Testes Unitários. <br>
+
+          <br>Hoje me sinto preparado para uma posição de 
+          desenvolvedor front-end júnior ao fim deste portfólio deixei 
+          um formulário para que você possa me dar o seu feedback sobre este 
+          portfólio e demais projetos que tenha visto/avaliado.<br>
+          <p class="font-atma--ss col-10 justify-content-center mx-0 my-auto p-0">
+        </p>
+      </p>
+      </article>
+    </section>
+    <!-- Closing: About -->
+    
+    <!-- Opening: Skills -->
+    <section id="skills" class="container-md row row-cols-2 mx-0 p-0">
+
+      <article class="row row-cols-1 col-12 col-md-6 mx-0 my5 px-5 py-0">
+        <h2 class="font-marvel--ss col-10 justify-content-center mx-0 my-auto p-0">
+
+        </h2>
+
+        <p class="font-atma--ss col-10 justify-content-center mx-0 my-auto p-0">
+          Até o momento, já tenho conhecimento de Front-End:<br>
+          HTML5, CSS3, NodeJS, JavaScript, ReactJS, Bootstrap, TailwindCSS, SaSS, Figma e Penpot.<br>
+          
+          <br>Criei este portfólio antes mesmo de terminar o curso para mostrar um pouco dos meus conhecimentos. 
+          Utilizei HTML semântico,  CSS3, JavaScript e o Bootstrap.<br>
+
+          <br>Estou desenvolvendo 2 projetos reais e em breve estarão aqui no portfólio. 
+          Afim de mostrar ainda mais minhas habilidades técnicas.<br>
+
+          <br>Mas se você precisa de alguém comprometido a aprender e somar a sua equipe, acabou de encontrar. 
+          Entre em contato comigo e conversaremos.
+        </p>
+      </article>
+    </section>
+    <!-- Closing: Skills -->
+    
+    <!-- Opening: Projects -->
+    <section id="projects" class="container-md row row-cols-2 mx-0 p-0"  style="height:250px;">
+
+    </section>
+    <!-- Closing: Projects -->
+    
+    <!-- Opening: Contacts -->
+    <section id="contacts" class="container-md row row-cols-5 mx-0 p-0"  style="height:250px;">
+
+    </section>
+    <!-- Closing: Contacts -->
+    
+    <!-- Opening: About -->
+  </main>
+  <!-- Closing: Main Portfolio -->
+  
+  <!-- Opening: Footer -->
+  <footer class="container-fluid row row-cols-1 mx-0 px-0" style="height:100vh;">
+
+    <section class="container-xxl row row-cols-2 col-12 mx-0 px-0">
+      <form id="feedback" class="row row-cols-1 col-12 col-md-5 my-auto mx-0 px-5 py-0">
+        <label class="inpt my-1 font-bangers--ss" for="name">Seu nome:</label>
+          <input id="name" class="inpt my-1" type="text" name="Nome" autocomplete="given-name" placeholder="Digite seu nome" aria-label="Digite seu Nome" required>
+        <label class="inpt my-1 font-bangers--ss" for="email">E-mail:</label>
+          <input id="email" class="inpt my-1" type="email" name="E-mail" autocomplete="on" placeholder="Digite seu e-mail" aria-label="Digite seu email"> 
+        <label class="inpt my-1 font-bangers--ss" for="w-app">WhatsApp:</label>
+          <input id="w-app" class="inpt my-1" type="tel" name="WhatsApp" autocomplete="on" placeholder="Digite seu WhatsApp" aria-label="Digite seu whats app">
+        <label class="inpt my-1 font-bangers--ss" for="txt-feedback">Escreva seu feedback:</label><br>
+          <textarea cols="12" rows="6" id="txt-feedback" class="inpt my-1" type="text" name="feedback" placeholder="Digite o seu feedback" aria-label="Digite o seu feedback" required></textarea>
+        <input class="col-4 offset-1 my-1" id="btn-enviar-feedback" type="submit" value="Enviar">
+      </form>
+
+      <article class="row row-cols-1 col-12 col-md-7 mx-0 my-auto px-4 py-0">
+        <h3 class="font-marvel--ss">
+          Lorem ipsum dolor sit amet.
+        </h3>
+        <p class="font-atma--ss">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Ab soluta vel molestiae quasi commodi officiis facilis veniam placeat tempore, 
+          rem enim modi eius accusamus error ea vero mollitia perspiciatis accusantium.
+        </p>
+      </article>
+    </section>
+
+    <section class="col-12 font-marvel--ss m-0 py-3 px-0 text-center" style="height: 50px;">
+      <p class="my-auto">
+        © 2023 Victor Natalio
+      </p>
+    </section>
+  
+  </footer>
+  <!-- Closing: Footer -->
+
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d43383d1f6.js" crossorigin="anonymous"></script>
+  <script src="./js/clock-watch.js"></script>
+</body>
+</html>

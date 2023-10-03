@@ -1,0 +1,13 @@
+.prlx{
+  height: 100vh;
+  width: 100%;
+  min-height: 375px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prlx--01{
+  background-image: url(../../../Imagens/Leao3.jpg);
+  z-index: -1;
+}
