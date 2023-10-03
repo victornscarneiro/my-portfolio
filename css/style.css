@@ -11,27 +11,22 @@
   overflow-wrap: break-word;
 }
 
-.red-color{
-  color: #fc1d24;
-}
+.red-color{color: #fc1d25;}
 
-.navBar-menu{
-  height: 40px;
-}
+.navBar-menu{height: 60px; background-color: #fdfd96;}
 
-#presentation{
-  margin-top: 125px;
-  height: auto;
-}
+.bg-expand-menu{background-color: #fdfd96;}
 
-.img-me{
-  height: inherit;
-}
+#presentation{margin-top: 60px; background-color: #a2f6b5;}
 
-footer{
-  height: 420px;
-}
-body{
-  background-color: #131313;
-  color: #fc1d24;
-}
+  .img-me{height: inherit;}
+
+#about{background-color: #b2dafa; color: #131313;}
+
+#skills{background-color: #f9d99a; color: #131313;}
+
+#projects{background-color: #a2f6b5}
+
+#contacts{background-color: #b2dafa; color: #131313;}
+
+footer{background-color: #131313; color: #fc1d25;}

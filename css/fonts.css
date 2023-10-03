@@ -1,96 +1,32 @@
-/* Aqui personalizei as fontes */
+/* Fontes utilizadas */
 
-@font-face {
-  font-family: 'atma','bangers','marvel';
-  src: url("../fonts/Atma-Regular.ttf", "../fonts/Bangers-Regular.ttf","../fonts/Marvel.ttf");}
+@font-face {font-family: 'atma','bangers','marvel'; 
+  src: url( "../fonts/Atma-Regular.ttf"), url("../fonts/Bangers-Regular.ttf"), url("../fonts/Marvel.ttf");}
 
 
 /* Fonte Atma */
-  .font-atma{
-  font-family: 'atma';
-  font-size: 1.25rem;  
-  }
-  .font-atma--ss{
-    font-family: 'atma';
-    font-size: 1rem;
-  }
-  .font-atma--s{
-    font-family: 'atma';
-    font-size: 1.5rem;
-  }
-  .font-atma--m{
-    font-family: 'atma';
-    font-size: 2rem;
-  }
-  .font-atma--l{
-    font-family: 'atma';
-    font-size: 2.5rem;
-  }
-  .font-atma--xl{
-    font-family: 'atma';
-    font-size: 3rem;
-  }
+.f-atma-ss{font-family: 'atma' !important; font-size: 0.5rem !important;}
+.f-atma-sm{font-family: 'atma' !important; font-size: 0.75rem !important;}
+.f-atma{font-family: 'atma' !important; font-size: 1rem !important;}
+.f-atma-md{font-family: 'atma' !important; font-size: 1.25rem !important;}
+.f-atma-lg{font-family: 'atma' !important; font-size: 1.6rem !important;}
+.f-atma-2l{font-family: 'atma' !important; font-size: 2rem !important;}
+.f-atma-3l{font-family: 'atma' !important; font-size: 2.5rem !important;}
 
-
-    /* Fonte Bangers */
-  .font-bangers{
-  text-transform: uppercase;
-  font-family: 'bangers';
-}
-.font-bangers--ss{
-  text-transform: uppercase;
-  font-family: 'bangers';
-  font-size: 1rem;
-}
-.font-bangers--s{
-  text-transform: uppercase;
-  font-family: 'bangers';
-  font-size: 1.5rem;
-}
-.font-bangers--m{
-  text-transform: uppercase;
-  font-family: 'bangers';
-  font-size: 2rem;
-}
-.font-bangers--l{
-  text-transform: uppercase;
-  font-family: 'bangers';
-  font-size: 2.5rem;
-}
-.font-bangers--xl{
-  text-transform: uppercase;
-  font-family: 'bangers';
-  font-size: 3rem;
-}
-
+/* Fonte Bangers */
+.f-bangers-ss{text-transform: uppercase; font-family: 'bangers' !important; font-size: 0.5rem !important;}
+.f-bangers-sm{text-transform: uppercase; font-family: 'bangers' !important; font-size: 0.75rem !important;}
+.f-bangers{text-transform: uppercase;  font-family: 'bangers' !important;  font-size: 1rem !important;}
+.f-bangers-md{text-transform: uppercase; font-family: 'bangers' !important; font-size: 1.25rem !important;}
+.f-bangers-lg{text-transform: uppercase; font-family: 'bangers' !important; font-size: 1.6rem !important;}
+.f-bangers-2l{text-transform: uppercase; font-family: 'bangers' !important; font-size: 2rem !important;}
+.f-bangers-3l{text-transform: uppercase; font-family: 'bangers' !important; font-size: 2.5rem !important;}
 
 /* Fonte Marvel */
-.font-marvel{
-  text-transform: uppercase;
-  font-family: 'marvel';
-}
-.font-marvel--ss{
-  text-transform: uppercase;
-  font-family: 'marvel';
-  font-size: 1rem;
-}
-.font-marvel--s{
-  text-transform: uppercase;
-  font-family: 'marvel';
-  font-size: 1.5rem;
-}
-.font-marvel--m{
-  text-transform: uppercase;
-  font-family: 'marvel';
-  font-size: 2rem;
-}
-.font-marvel--l{
-  text-transform: uppercase;
-  font-family: 'marvel';
-  font-size: 2.5rem;
-}
-.font-marvel--xl{
-  text-transform: uppercase;
-  font-family: 'marvel';
-  font-size: 3rem;
-  }
+.f-marvel-ss{text-transform: uppercase; font-family: 'marvel' !important; font-size: 0.5rem !important;}
+.f-marvel-sm{text-transform: uppercase; font-family: 'marvel' !important; font-size: 0.75rem !important;}
+.f-marvel{text-transform: uppercase; font-family: 'marvel' !important;  font-size: 1rem !important;}
+.f-marvel-md{text-transform: uppercase; font-family: 'marvel' !important; font-size: 1.25rem !important;}
+.f-marvel-lg{text-transform: uppercase; font-family: 'marvel' !important; font-size: 1.6rem !important;}
+.f-marvel-2l{text-transform: uppercase; font-family: 'marvel' !important; font-size: 2rem !important;}
+.f-marvel-3l{text-transform: uppercase; font-family: 'marvel' !important; font-size: 2.5rem !important;}
